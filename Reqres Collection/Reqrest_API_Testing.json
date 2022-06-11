@@ -262,7 +262,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n    \"first name\": \"\",\n    \"last name\": \"{{$randomLastName}}\",\n    \"job\": \"{{$randomJobTitle}}\",\n    \"job desc\": \"{{$randomJobDescriptor}}\"\n}",
+							"raw": "{\n    \"first name\": \"{{$randomFirstName}}\",\n    \"last name\": \"{{$randomLastName}}\",\n    \"job\": \"{{$randomJobTitle}}\",\n    \"job desc\": \"{{$randomJobDescriptor}}\"\n}",
 							"options": {
 								"raw": {
 									"language": "json"
